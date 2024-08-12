@@ -224,7 +224,7 @@ const Index: NextPage = () => {
 														<Button
 															className='m-2'
 															icon=''
-															color='warning'
+															color='danger'
 															onClick={() => handleClickDelete(user)}>
 															Deactivate
 														</Button>
@@ -242,7 +242,7 @@ const Index: NextPage = () => {
 														<Button
 															className='m-2'
 															icon=''
-															color='warning'
+															color='success'
 															onClick={() => handleClickDelete(user)}>
 															Activate
 														</Button>
