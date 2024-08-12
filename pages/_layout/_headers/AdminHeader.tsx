@@ -10,7 +10,7 @@ const MyDefaultHeader = () => {
 	const deviceScreen = useDeviceScreen();
 	return (
 		<Header>
-			<HeaderLeft>
+			{/* <HeaderLeft>
 				<Navigation
 					menu={{ ...addminPagesMenu}}
 					id='header-top-menu'
@@ -19,7 +19,7 @@ const MyDefaultHeader = () => {
 						deviceScreen.width >= Number(process.env.NEXT_PUBLIC_MOBILE_BREAKPOINT_SIZE)
 					}
 				/>
-			</HeaderLeft>
+			</HeaderLeft> */}
 			<CommonHeaderRight />
 		</Header>
 	);
